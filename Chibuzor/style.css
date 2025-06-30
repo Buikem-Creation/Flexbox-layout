@@ -1,0 +1,67 @@
+body{
+    background-color: aqua;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    font-family: Courier, monospace;
+    font-weight: 300;
+    
+    text-align: center;
+    
+}
+* {
+    border-radius: 5px;
+    
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: brown;
+    border: 2px solid black;
+    margin: 5px;
+}
+aside{
+    height: 640px;
+    width: 23%;
+    background-color: orangered;
+    border: 2px solid rgb(74, 82, 61);
+    float: left;
+    margin:5px;
+}
+.One {
+    background-color: gray;
+    width: 23%;
+    height: 200px;
+    border: 2px solid peru;
+    float: left;
+    margin: 5px;
+
+}
+.Centre{
+    background-color: black;
+    height: 200px;
+    border: 2px solid blueviolet;
+    width: 74%;
+    color: white;
+    margin: 5px;
+    
+    float: left;
+}
+.last{
+    background-color: brown;
+    width: 37.5;
+    border: 2px solid whitesmoke;
+    height: 200px;
+    float: left;
+    width: 36.5%;
+    margin: 5px;
+}
+@media screen and(max-width:400px){
+    body{
+        display: block;
+    }
+    aside{
+        display: none;
+    }
+}
